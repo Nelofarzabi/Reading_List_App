@@ -6,10 +6,10 @@
 > Description the project.
 - Reading list app is a simple web app which developed with HTML , CSS , JS ..
 - With this app you can :
-- Add books 
-- Delete books 
-- Search books 
-- Hide and Show all existing books 
+1 Add books 
+2 Delete books 
+3 Search books 
+4 Hide and Show all existing books 
 
 # Getting Started
 
