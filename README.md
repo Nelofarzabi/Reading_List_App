@@ -10,7 +10,7 @@
 - Add books 
 - Delete books 
 - Search books 
- Hide and Show all existing books 
+- Hide and Show all existing books 
 
 # Getting Started
 
