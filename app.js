@@ -20,4 +20,10 @@ form.addEventListener('submit' , function(e){
     const bookName = document.createElement('span');
     const deleteBtn = document.createElement('span'); 
 
+    //append element 
+    li.appendChild(bookName);
+    li.appendChild(deleteBtn);
+    list.appendChild(li);
+
+
 } )
