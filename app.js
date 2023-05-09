@@ -1,11 +1,11 @@
-var btn = document.querySelectorAll('#book-list .delete');
+var list = document.querySelector('#book-list ul');
 
-Array.from(btn).forEach(function(item){
-   item.addEventListener('click' , function(e){
-         var li = e.target.parentElement;
-         li.parentNode.removeChild(li);
-      
-   })
+list.addEventListener('click' , function(e){
+    if(e.target.className == 'delete'){
+       const li = e.target.parentElement;
+       list.removeChild(li);
+    }
 })
+
 
 
