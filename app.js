@@ -1,5 +1,6 @@
 var list = document.querySelector('#book-list ul');
 
+//delete books 
 list.addEventListener('click' , function(e){
     if(e.target.className == 'delete'){
        const li = e.target.parentElement;
@@ -8,4 +9,15 @@ list.addEventListener('click' , function(e){
 })
 
 
+//add books
+var form = document.forms['add-book'];
+form.addEventListener('submit' , function(e){
+    e.preventDefault();
+    var values = form.querySelector('input[type="text"]').value;
+    
+    //create element 
+    const li = document.createElement('li');
+    const bookName = document.createElement('span');
+    const deleteBtn = document.createElement('span'); 
 
+} )
