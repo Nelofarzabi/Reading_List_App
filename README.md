@@ -4,7 +4,7 @@
 # Reading List App 
 
 > Description the project.
-- Reading list app is a sipmle web app which developed with HTML , CSS , JS ..
+- Reading list app is a simple web app which developed with HTML , CSS , JS ..
 - With this app you can :
 - Add books 
 - Delete books 
